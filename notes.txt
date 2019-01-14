@@ -1,0 +1,25 @@
+--Start Mongo DB server
+mongod.exe --dbpath c:/mongo-data
+
+--Connect to Mongo DB
+mongo.exe
+
+
+npm init
+npm install mongodb@2.2.5 --save
+
+npm install mongoose --save
+
+npm run test-watch
+
+
+heroku create
+heroku addons:create mongolab:sandbox
+heroku config
+
+git push heroku master
+
+heroku logs
+heroku open
+
+
