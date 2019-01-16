@@ -32,8 +32,6 @@ npm install bcryptjs --save
 heroku config
 heroku config:set NAME=Brijesh
 
-git push heroku master
-
 
 nodemon server/server.js
 
